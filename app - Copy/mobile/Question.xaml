@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobile.Question"
+             >
+    <ContentPage.Content>
+        <Frame>
+        <Frame.Background>
+
+
+
+            <LinearGradientBrush>
+
+                <GradientStop Color="Azure" Offset="0.1" />
+
+                <GradientStop Color="Gray" Offset="1.0" />
+
+            </LinearGradientBrush>
+        </Frame.Background>
+        <ScrollView>
+            <StackLayout>
+
+                
+                    <Frame CornerRadius="20" BorderColor="Black" Margin="2,2,2,2" BackgroundColor="black">
+
+
+
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40" />
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+
+                            </Grid.ColumnDefinitions>
+                            <Button FontSize="Medium" x:Name="userName" TextColor="White"  
+                              Grid.Row="0" Grid.Column="0" BackgroundColor="Black"/>
+                            <Button x:Name="points"  FontSize="Medium" TextColor="White"  Grid.Row="0" Grid.Column="1" BackgroundColor="Black"/>
+
+                        </Grid>
+
+
+
+
+
+
+
+
+
+
+                    </Frame>
+
+                    <Frame CornerRadius="20" BorderColor="Black" Margin="2,2,2,2">
+                        <Label  x:Name="question" TextColor="Black" FontSize="25"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" >
+
+                            Koks miestas yra Lietuvos sostine?
+
+                        </Label>
+                    </Frame>
+
+
+
+                    <Button x:Name="buttonA" Clicked="buttonA_Clicked" CornerRadius="20"  BorderColor="black" BorderWidth="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Text="" Margin="2,2,2,2"></Button>
+                    <Button x:Name="buttonB" Clicked="buttonB_Clicked" CornerRadius="20"  BorderColor="black" BorderWidth="1"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Text="" Margin="2,2,2,2"></Button>
+                    <Button x:Name="buttonC" Clicked="buttonC_Clicked" CornerRadius="20"   BorderColor="black" BorderWidth="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Text="" Margin="2,2,2,2"></Button>
+
+                    <Button FontSize="Medium" x:Name="answer" Clicked="answer_Clicked" CornerRadius="20" BorderColor="Black" BorderWidth="1" BackgroundColor="White" TextColor="Lime" VerticalOptions="Center"  Text="Atsakyti" Margin="2,2,2,2"></Button>
+            </StackLayout>
+        </ScrollView>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
