@@ -1,0 +1,336 @@
+
+#carouselExampleControls .carousel-item img{
+object-fit: cover;
+    width: 100%;
+    height: 35vw;
+    overflow: hidden;
+
+
+}
+
+.copyImageDiv{
+margin-top: 2%;
+
+position: relative;
+}
+#ImageDeleteButton{
+position: absolute;
+ 
+ top:0;
+ right:0;
+  
+ 
+}
+#QuestionIcon{
+
+font-size: 500%;
+}
+#MainImg{
+height: 300px;
+
+}
+.FixedSecond{
+    top:18%;
+}
+.CommentText{
+
+    padding-left: 10%;
+}
+#errors{
+margin:2%;
+
+}
+.image{
+
+width:100%;height:50%
+}
+.MapBox {
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+    max-height: 350px;
+    margin-bottom: 3%;
+       
+}
+
+.ForgotPass {
+
+    text-decoration: none;
+    text-align: center;
+
+}
+
+#textBlock {
+    margin-top: 2%;
+
+
+}
+
+.bi-star-fill::before {
+
+    margin-bottom: 2.5px;
+    margin-right: 2px;
+
+}
+
+#LoadingCircle {
+
+    width: 5vw;
+    height: 5vw;
+
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.SearchBlock {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 1%;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.SearchBlock:visited {
+
+    color: hotpink;
+}
+
+.SearchBlock:hover {
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    color: white;
+}
+
+#navbarLink:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#navbarMargin {
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+#RoundNavbar {
+    border-radius: 10px;
+}
+
+#SearchMargin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#SearchMarginSelect {
+
+    margin: 1%;
+
+    width: 15%;
+
+
+}
+
+#Background-Gradient {
+
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    background-attachment: fixed;
+    
+    font-family: Arial, sans-serif;
+   
+    background-repeat: no-repeat;
+   
+}
+
+.Background {
+
+    background-image: url("../main_img/lit.webp");
+    background-repeat: repeat;
+
+}
+
+#imageData {
+    border-radius: 35px;
+    width: 100%;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#Fixed {
+
+    position: fixed;
+    
+    font-size: 250%;
+    cursor: pointer;
+
+
+}
+
+#Fixed,
+#Fixed:focus,
+#Fixed:active {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+#Fixed:hover {
+    color: greenyellow;
+}
+
+#ProfileImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+    float: left;
+    border-radius: 100%;
+    padding: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#ProfileImageRound {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 0px;
+    border-radius: 100%;
+    margin-top: 1%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#ProfileImageRoundAdmin{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 0px;
+    border-radius: 100%;
+    margin-top: 1%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+#block {
+
+    background-color: black;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+#arrow {
+
+    height: 10%;
+    width: 10%;
+
+
+
+
+}
+
+#arrow:hover {
+    background-color: black;
+    border-radius: 30px;
+}
+
+#positive {
+    margin-left: 10px;
+    color: lawngreen;
+    font-size: 100%;
+
+}
+
+#negative {
+    color: red;
+    font-size: 100%;
+}
+
+#upvoteBlock {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#BlockMargin1 {
+    margin-top: 1%;
+
+
+
+}
+
+#ChangeUserInfo {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#ProfileDescription {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 1%;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+#editName {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 1%;
+}
+
+#row1 {
+
+    background-color: gold;
+}
+
+#row2 {
+
+    background-color: silver;
+}
+
+#row3 {
+
+    background-color: rosybrown;
+}
+
+#map {
+
+    border-radius: 10px;
+
+
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
